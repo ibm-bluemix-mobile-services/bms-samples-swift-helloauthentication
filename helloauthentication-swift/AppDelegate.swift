@@ -14,7 +14,7 @@ import BMSSecurity
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    internal static let resourceURL = "/protected" // any protected resource
+    internal static let protectedResourceURL = "/protected" // any protected resource
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {

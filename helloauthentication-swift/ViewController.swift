@@ -37,7 +37,7 @@ class ViewController: UIViewController {
                 dispatch_sync(dispatch_get_main_queue()) {
                     self.topLabel.text = "Yay!"
                     self.bottomLabel.text = "Connected to MCA protected endpoint"
-                    self.errorTextView.text = " \(AppDelegate.resourceURL)"
+                    self.errorTextView.text = " \(AppDelegate.protectedResourceURL)"
                 }
             } else {
                 dispatch_sync(dispatch_get_main_queue()) {
