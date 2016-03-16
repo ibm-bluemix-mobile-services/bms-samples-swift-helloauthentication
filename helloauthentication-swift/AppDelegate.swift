@@ -14,15 +14,13 @@ import BMSSecurity
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    private let backendURL = "{ENTER YOUR BACKANDURL}"
-    private let backendGUID = "{ENTER YOUR GUID}"
-    internal static let resourceURL = "{ENTER THE PATH TO YOUR PROTECTED RESOURCE (e.g. /protectedResource)" // any protected resource
+    internal static let resourceURL = "/protected" // any protected resource
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        BMSClient.sharedInstance.initializeWithBluemixAppRoute(backendURL, bluemixAppGUID: backendGUID, bluemixRegion: "your region, choose from BMSClient.REGION_XXX or add your own")
+        BMSClient.sharedInstance.initializeWithBluemixAppRoute("{APPLICATION_ROUTE}", bluemixAppGUID: "{APPLICATION_ID}", bluemixRegion: "{APPLICATION_REGION}")
         BMSClient.sharedInstance.authorizationManager = MCAAuthorizationManager.sharedInstance
         FacebookAuthenticationManager.sharedInstance.register()
                 

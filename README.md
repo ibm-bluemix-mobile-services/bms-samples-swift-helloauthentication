@@ -38,29 +38,31 @@ Before you can run the helloAuthentication application, you must set up an app o
 >**Note:** If you have not previously created a Facebook mobile application, follow the instructions on how to [Register and Configure an App](https://developers.facebook.com/docs/apps/register#create-app).
 
 ### Configure the front end in the helloAuthentication sample
-1. In a terminal, navigate to the `bms-samples-ios-helloauthentication` directory where the project was cloned.
-2. Navigate to the `helloAuthentication` folder.
-3. If the CocoaPods dependency manager is not installed, install it with the following command:
+1. In a terminal, navigate to the `bms-samples-swift-helloauthentication` directory where the project was cloned.
+2. If the CocoaPods dependency manager is not installed, install it with the following command:
 `sudo gem install cocoapods`
-4. If the CocoaPods repository is not configured, run the following command: `pod setup`
-5. Run the `pod install` command to download and install the required dependencies.
-6. Open the Xcode workspace: `open helloAuthentication.xcworkspace`. From now on, open the `.xcworkspace` file, because it contains all the dependencies and configuration.
-7. Open the `AppDelegate.m` file. Add the corresponding **ApplicationRoute** and
-**ApplicationID** in the application `didFinishLaunchingWithOptions` method:
+3. If the CocoaPods repository is not configured, run the following command: `pod setup`
+4. Run the `pod install` command to download and install the required dependencies.
+5. Open the Xcode workspace: `open helloAuthentication-swift.xcworkspace`. From now on, open the `.xcworkspace` file, because it contains all the dependencies and configuration.
+6. Open the `AppDelegate.swift` file. Add the corresponding **ApplicationRoute**,
+**ApplicationID** and **ApplicationRegion** in the application `didFinishLaunchingWithOptions` method:
 
-```objective-c
-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+```Swift
+func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+       // Override point for customization after application launch.
 
-//initialize SDK with IBM Bluemix application ID and route
-//TODO: Enter a valid ApplicationRoute for initializaWithBacken Route and a valid ApplicationId for backenGUID
-IMFClient *imfClient = [IMFClient sharedInstance];
-[imfClient initializeWithBackendRoute:@"<APPLICATION_ROUTE>" backendGUID:@"<APPLICATION_ID>"];			
+       BMSClient.sharedInstance.initializeWithBluemixAppRoute("{APPLICATION_ROUTE}", bluemixAppGUID: "{APPLICATION_ID}", bluemixRegion: "your region, choose from BMSClient.REGION_XXX or add your own")
+       BMSClient.sharedInstance.authorizationManager = MCAAuthorizationManager.sharedInstance  
+       FacebookAuthenticationManager.sharedInstance.register()  
+       return true
+   }
 
-return YES;
-}
 ```
 
 ### Set up Facebook authentication
+
+Copy the `FacebookAuthenticationManager.swift` file from the `BMSFacebookAuthentication` pod's source folder to your app's folder, and add it to the helloauthentication-swift project.
+
 Update the `Info.plist` file with your Facebook App information:
 
 - **FacebookAppID** (For example `1581349575427190`): You can get the App ID from the Facebook developer console.
