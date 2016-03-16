@@ -1,8 +1,8 @@
 # iOS helloAuthentication Sample Application for Bluemix Mobile Services
 
-The helloAuthentication sample contains an Objective-C project that you can use to learn more about the Mobile Client Access service.  
+The helloAuthentication sample contains a Swift project that you can use to learn more about the Mobile Client Access service.  
 
-Use the following steps to configure the helloAuthentication sample for Objective-C:
+Use the following steps to configure the helloAuthentication sample for Swift:
 
 1. [Download the helloAuthentication sample](#download-the-helloauthentication-sample)
 2. [Configure the mobile backend for your helloAuthentication application](#configure-the-mobile-backend-for-your-helloauthentication-application)
