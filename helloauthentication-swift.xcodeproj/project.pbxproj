@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15244A3FCEDCA4611FBA789D /* Pods_helloauthentication_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2206EE08951CFB08B3E93EA /* Pods_helloauthentication_swift.framework */; };
+		FDC6EFFD1C8ED62700884062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6EFFC1C8ED62700884062 /* AppDelegate.swift */; };
+		FDC6EFFF1C8ED62700884062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC6EFFE1C8ED62700884062 /* ViewController.swift */; };
+		FDC6F0021C8ED62700884062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC6F0001C8ED62700884062 /* Main.storyboard */; };
+		FDC6F0041C8ED62700884062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC6F0031C8ED62700884062 /* Assets.xcassets */; };
+		FDC6F0071C8ED62700884062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC6F0051C8ED62700884062 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		584FE077AC07CD5A2C67B3FD /* Pods-helloauthentication-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloauthentication-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloauthentication-swift/Pods-helloauthentication-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		B2206EE08951CFB08B3E93EA /* Pods_helloauthentication_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloauthentication_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70F465E5EF35EFEAC1C9C8C /* Pods-helloauthentication-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloauthentication-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloauthentication-swift/Pods-helloauthentication-swift.release.xcconfig"; sourceTree = "<group>"; };
+		FDC6EFF91C8ED62700884062 /* helloauthentication-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "helloauthentication-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC6EFFC1C8ED62700884062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDC6EFFE1C8ED62700884062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDC6F0011C8ED62700884062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDC6F0031C8ED62700884062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC6F0061C8ED62700884062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDC6F0081C8ED62700884062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC6EFF61C8ED62700884062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15244A3FCEDCA4611FBA789D /* Pods_helloauthentication_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF95772592ABEA278DEE409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				584FE077AC07CD5A2C67B3FD /* Pods-helloauthentication-swift.debug.xcconfig */,
+				B70F465E5EF35EFEAC1C9C8C /* Pods-helloauthentication-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB59DB57E2433AFFF10B8E0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2206EE08951CFB08B3E93EA /* Pods_helloauthentication_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDC6EFF01C8ED62700884062 = {
+			isa = PBXGroup;
+			children = (
+				FDC6EFFB1C8ED62700884062 /* helloauthentication-swift */,
+				FDC6EFFA1C8ED62700884062 /* Products */,
+				4DF95772592ABEA278DEE409 /* Pods */,
+				BB59DB57E2433AFFF10B8E0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC6EFFA1C8ED62700884062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6EFF91C8ED62700884062 /* helloauthentication-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC6EFFB1C8ED62700884062 /* helloauthentication-swift */ = {
+			isa = PBXGroup;
+			children = (
+				FDC6EFFC1C8ED62700884062 /* AppDelegate.swift */,
+				FDC6EFFE1C8ED62700884062 /* ViewController.swift */,
+				FDC6F0001C8ED62700884062 /* Main.storyboard */,
+				FDC6F0031C8ED62700884062 /* Assets.xcassets */,
+				FDC6F0051C8ED62700884062 /* LaunchScreen.storyboard */,
+				FDC6F0081C8ED62700884062 /* Info.plist */,
+			);
+			path = "helloauthentication-swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC6EFF81C8ED62700884062 /* helloauthentication-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC6F00B1C8ED62700884062 /* Build configuration list for PBXNativeTarget "helloauthentication-swift" */;
+			buildPhases = (
+				BA10138AC3A19B7C5C553A28 /* Check Pods Manifest.lock */,
+				FDC6EFF51C8ED62700884062 /* Sources */,
+				FDC6EFF61C8ED62700884062 /* Frameworks */,
+				FDC6EFF71C8ED62700884062 /* Resources */,
+				EC1F77360672152828EBE2EE /* Embed Pods Frameworks */,
+				45777A27061317FFE91CA8C7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "helloauthentication-swift";
+			productName = "helloauthentication-swift";
+			productReference = FDC6EFF91C8ED62700884062 /* helloauthentication-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC6EFF11C8ED62700884062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ibm;
+				TargetAttributes = {
+					FDC6EFF81C8ED62700884062 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FDC6EFF41C8ED62700884062 /* Build configuration list for PBXProject "helloauthentication-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC6EFF01C8ED62700884062;
+			productRefGroup = FDC6EFFA1C8ED62700884062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC6EFF81C8ED62700884062 /* helloauthentication-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC6EFF71C8ED62700884062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC6F0071C8ED62700884062 /* LaunchScreen.storyboard in Resources */,
+				FDC6F0041C8ED62700884062 /* Assets.xcassets in Resources */,
+				FDC6F0021C8ED62700884062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45777A27061317FFE91CA8C7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloauthentication-swift/Pods-helloauthentication-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA10138AC3A19B7C5C553A28 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1F77360672152828EBE2EE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloauthentication-swift/Pods-helloauthentication-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC6EFF51C8ED62700884062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC6EFFF1C8ED62700884062 /* ViewController.swift in Sources */,
+				FDC6EFFD1C8ED62700884062 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDC6F0001C8ED62700884062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC6F0011C8ED62700884062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDC6F0051C8ED62700884062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC6F0061C8ED62700884062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC6F0091C8ED62700884062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC6F00A1C8ED62700884062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDC6F00C1C8ED62700884062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584FE077AC07CD5A2C67B3FD /* Pods-helloauthentication-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "helloauthentication-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.helloAuthentication.helloauthentication-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDC6F00D1C8ED62700884062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70F465E5EF35EFEAC1C9C8C /* Pods-helloauthentication-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "helloauthentication-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibm.helloAuthentication.helloauthentication-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC6EFF41C8ED62700884062 /* Build configuration list for PBXProject "helloauthentication-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC6F0091C8ED62700884062 /* Debug */,
+				FDC6F00A1C8ED62700884062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC6F00B1C8ED62700884062 /* Build configuration list for PBXNativeTarget "helloauthentication-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC6F00C1C8ED62700884062 /* Debug */,
+				FDC6F00D1C8ED62700884062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC6EFF11C8ED62700884062 /* Project object */;
+}
