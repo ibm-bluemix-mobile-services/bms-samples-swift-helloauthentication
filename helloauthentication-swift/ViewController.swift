@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         bottomLabel.text = "Attempting to connect"
         errorTextView.text = ""
         
-        let callBack:MfpCompletionHandler = {(response: Response?, error: NSError?) in
+        let callBack:BmsCompletionHandler = {(response: Response?, error: NSError?) in
             if error == nil && response?.statusCode==200 {
                 dispatch_sync(dispatch_get_main_queue()) {
                     self.topLabel.text = "Yay!"
