@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
-        BMSClient.sharedInstance.initializeWithBluemixAppRoute("{APPLICATION_ROUTE}", bluemixAppGUID: "{APPLICATION_ID}", bluemixRegion: "{APPLICATION_REGION}")
+
+        BMSClient.sharedInstance.initialize(bluemixAppRoute: "{APPLICATION_ROUTE}", bluemixAppGUID: "{APPLICATION_ID}", bluemixRegion: "{APPLICATION_REGION}")
         BMSClient.sharedInstance.authorizationManager = MCAAuthorizationManager.sharedInstance
         FacebookAuthenticationManager.sharedInstance.register()
                 
